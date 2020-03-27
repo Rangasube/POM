@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="347.152" tests="45" errors="0" skipped="39" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="c://ChromeDriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sai Sharan\git\PageObjectModel\POM\target\test-classes;C:\Users\Sai Sharan\git\PageObjectModel\POM\target\classes;C:\Users\Sai Sharan\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Sai Sharan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sai Sharan\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-4\selenium-java-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-4\selenium-api-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-4\selenium-chrome-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\Sai Sharan\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\Sai Sharan\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Sai Sharan\.m2\repository\com\google\guava\guava\28.2-jre\guava-28.2-jre.jar;C:\Users\Sai Sharan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sai Sharan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sai Sharan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sai Sharan\.m2\repository\org\checkerframework\checker-qual\2.10.0\checker-qual-2.10.0.jar;C:\Users\Sai Sharan\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sai Sharan\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-4\selenium-chromium-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-4\selenium-devtools-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-4\selenium-http-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-4\selenium-json-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-4\selenium-edge-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-4\selenium-edgehtml-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-4\selenium-firefox-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-4\selenium-firefox-xpi-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-4\selenium-ie-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-4\selenium-opera-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-4\selenium-remote-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\com\squareup\okhttp3\okhttp\4.3.0\okhttp-4.3.0.jar;C:\Users\Sai Sharan\.m2\repository\com\squareup\okio\okio\2.4.1\okio-2.4.1.jar;C:\Users\Sai Sharan\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.50\kotlin-stdlib-common-1.3.50.jar;C:\Users\Sai Sharan\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.61\kotlin-stdlib-1.3.61.jar;C:\Users\Sai Sharan\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Sai Sharan\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-common\4.1.43.Final\netty-common-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-buffer\4.1.43.Final\netty-buffer-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport\4.1.43.Final\netty-transport-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec\4.1.43.Final\netty-codec-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Sai Sharan\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\Sai Sharan\.m2\repository\net\bytebuddy\byte-buddy\1.10.6\byte-buddy-1.10.6.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sai Sharan\.m2\repository\org\asynchttpclient\async-http-client\2.10.4\async-http-client-2.10.4.jar;C:\Users\Sai Sharan\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.10.4\async-http-client-netty-utils-2.10.4.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec-http\4.1.42.Final\netty-codec-http-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec-socks\4.1.42.Final\netty-codec-socks-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-handler-proxy\4.1.42.Final\netty-handler-proxy-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.42.Final\netty-transport-native-epoll-4.1.42.Final-linux-x86_64.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.42.Final\netty-transport-native-unix-common-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.42.Final\netty-transport-native-kqueue-4.1.42.Final-osx-x86_64.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-resolver-dns\4.1.42.Final\netty-resolver-dns-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-resolver\4.1.42.Final\netty-resolver-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec-dns\4.1.42.Final\netty-codec-dns-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Sai Sharan\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-4\selenium-safari-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-4\selenium-support-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Sai Sharan\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Sai Sharan\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Sai Sharan\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Sai Sharan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sai Sharan\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Sai Sharan\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Sai Sharan\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Sai Sharan\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Sai Sharan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sai Sharan\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Sai Sharan\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sai Sharan\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sai Sharan\AppData\Local\Temp\surefire4523300556944231899\surefirebooter639728342733558387.jar C:\Users\Sai Sharan\AppData\Local\Temp\surefire4523300556944231899 2020-03-25T17-38-46_009-jvmRun1 surefire7850436727727560623tmp surefire_0365392697002206215tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sai Sharan\git\PageObjectModel\POM\target\test-classes;C:\Users\Sai Sharan\git\PageObjectModel\POM\target\classes;C:\Users\Sai Sharan\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Sai Sharan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sai Sharan\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-4\selenium-java-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-4\selenium-api-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-4\selenium-chrome-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\Sai Sharan\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\Sai Sharan\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Sai Sharan\.m2\repository\com\google\guava\guava\28.2-jre\guava-28.2-jre.jar;C:\Users\Sai Sharan\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Sai Sharan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sai Sharan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sai Sharan\.m2\repository\org\checkerframework\checker-qual\2.10.0\checker-qual-2.10.0.jar;C:\Users\Sai Sharan\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Sai Sharan\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-4\selenium-chromium-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-4\selenium-devtools-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-4\selenium-http-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-4\selenium-json-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-4\selenium-edge-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-4\selenium-edgehtml-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-4\selenium-firefox-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-4\selenium-firefox-xpi-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-4\selenium-ie-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-4\selenium-opera-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-4\selenium-remote-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\com\squareup\okhttp3\okhttp\4.3.0\okhttp-4.3.0.jar;C:\Users\Sai Sharan\.m2\repository\com\squareup\okio\okio\2.4.1\okio-2.4.1.jar;C:\Users\Sai Sharan\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.50\kotlin-stdlib-common-1.3.50.jar;C:\Users\Sai Sharan\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.61\kotlin-stdlib-1.3.61.jar;C:\Users\Sai Sharan\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Sai Sharan\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-common\4.1.43.Final\netty-common-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-buffer\4.1.43.Final\netty-buffer-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport\4.1.43.Final\netty-transport-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec\4.1.43.Final\netty-codec-4.1.43.Final.jar;C:\Users\Sai Sharan\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Sai Sharan\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\Sai Sharan\.m2\repository\net\bytebuddy\byte-buddy\1.10.6\byte-buddy-1.10.6.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sai Sharan\.m2\repository\org\asynchttpclient\async-http-client\2.10.4\async-http-client-2.10.4.jar;C:\Users\Sai Sharan\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.10.4\async-http-client-netty-utils-2.10.4.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec-http\4.1.42.Final\netty-codec-http-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec-socks\4.1.42.Final\netty-codec-socks-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-handler-proxy\4.1.42.Final\netty-handler-proxy-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.42.Final\netty-transport-native-epoll-4.1.42.Final-linux-x86_64.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.42.Final\netty-transport-native-unix-common-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.42.Final\netty-transport-native-kqueue-4.1.42.Final-osx-x86_64.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-resolver-dns\4.1.42.Final\netty-resolver-dns-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-resolver\4.1.42.Final\netty-resolver-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\io\netty\netty-codec-dns\4.1.42.Final\netty-codec-dns-4.1.42.Final.jar;C:\Users\Sai Sharan\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Sai Sharan\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-4\selenium-safari-driver-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-4\selenium-support-4.0.0-alpha-4.jar;C:\Users\Sai Sharan\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Sai Sharan\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Sai Sharan\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Sai Sharan\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Sai Sharan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sai Sharan\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Sai Sharan\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Sai Sharan\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\Sai Sharan\.m2\repository\commons-codec\commons-codec\1.5\commons-codec-1.5.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\Sai Sharan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sai Sharan\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Sai Sharan\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\poi-scratchpad\3.9\poi-scratchpad-3.9.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\Sai Sharan\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sai Sharan\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sai Sharan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="C:\Users\Sai Sharan\git\PageObjectModel\POM"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sai Sharan\AppData\Local\Temp\surefire4523300556944231899\surefirebooter639728342733558387.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="Sai Sharan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sai Sharan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAISHA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="C:\Users\Sai Sharan\git\PageObjectModel\POM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Sai Sharan\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Apche ant\apache-ant-1.10.6\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Apache Maven\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git\cmd;C:\Users\Sai Sharan\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPageTest" time="64.232">
+    <failure message="timeout: Timed out receiving message from renderer: -0.002&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e562d06ac5a3a92c5ffedb12542741e9" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-VFM9P8ED', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e562d06ac5a3a92c5ffedb12542741e9
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:20)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com'
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.002
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-VFM9P8ED', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e562d06ac5a3a92c5ffedb12542741e9
+
+@@@@@@@@user directory--C:\Users\Sai Sharan\git\PageObjectModel\POM
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 3208
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585138152.358][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 5:39:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585138159.934][WARNING]: Timed out connecting to Chrome, retrying...
+[1585138168.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138168.794][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138168.913][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.328][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.435][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.536][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.641][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.742][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138169.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.005][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.232][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.446][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.549][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.657][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.759][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.866][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138170.974][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.189][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.304][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.407][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.615][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.720][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.826][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138171.938][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.040][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.143][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.354][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.457][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.560][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.666][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.858][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138172.960][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138173.065][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138173.177][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138173.279][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138179.026][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138181.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138181.815][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138182.205][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138182.353][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138182.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138182.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138182.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138182.801][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138182.917][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.033][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.149][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.263][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.365][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.466][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.671][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.772][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.874][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138183.975][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.078][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.182][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.283][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.386][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.502][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.605][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.706][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.808][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138184.914][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.018][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.121][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.223][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.328][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.435][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.536][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.758][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.861][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138185.965][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.169][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.270][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.476][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.889][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138186.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.101][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.204][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.306][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.408][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.516][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.617][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.719][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138187.924][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.028][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.133][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.235][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.337][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.439][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.540][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.645][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.748][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.851][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138188.952][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.054][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.156][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.261][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.365][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.470][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.573][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.677][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.785][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138189.991][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.095][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.200][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.303][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.405][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.506][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.608][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.714][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138190.919][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.021][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.124][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.227][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.333][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.435][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.537][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.741][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.846][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138191.947][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138192.049][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138192.151][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138192.253][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138192.355][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138192.457][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138192.522][SEVERE]: Timed out receiving message from renderer: 0.056
+[1585138192.523][SEVERE]: Timed out receiving message from renderer: -0.002
+Mar 25, 2020 5:39:53 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '408' -> incorrect JSON status mapping for 'timeout' (500 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.002&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e562d06ac5a3a92c5ffedb12542741e9"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="crmLogoImageTest" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.002&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e562d06ac5a3a92c5ffedb12542741e9"/>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.002&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e562d06ac5a3a92c5ffedb12542741e9"/>
+  </testcase>
+  <testcase name="HomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.014"/>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="28.35">
+    <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 1;">...</div>
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-VFM9P8ED', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:40)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com'
+Navigated to:'https://classic.crmpro.com'
+Trying to find Element By : By.xpath: //input[@placeholder='Username']
+Found Element By : By.xpath: //input[@placeholder='Username']
+Trying to find Element By : By.xpath: //input[@placeholder='Password']
+Found Element By : By.xpath: //input[@placeholder='Password']
+Trying to find Element By : By.xpath: //input[@class='btn btn-small']
+Found Element By : By.xpath: //input[@class='btn btn-small']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (b73a72ce42ac2ab5bc35c52bdebe2d8f)] -> xpath: //input[@class='btn btn-small']]
+Exception occured: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" value="Login" class="btn btn-small"> is not clickable at point (1182, 117). Other element would receive the click: <div id="preloader" style="opacity: 1;">...</div>
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-VFM9P8ED', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f
+
+@@@@@@@@user directory--C:\Users\Sai Sharan\git\PageObjectModel\POM
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 16734
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585138268.462][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 5:41:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585138272.753][WARNING]: Timed out connecting to Chrome, retrying...
+[1585138276.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.201][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.302][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.404][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.509][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.631][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.732][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.834][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138276.935][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138277.038][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138277.142][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138277.245][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138277.347][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138277.449][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138279.799][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.002][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.107][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.333][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.436][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.540][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.642][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.743][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.854][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138280.956][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.160][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.266][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.373][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.474][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.577][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.679][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.783][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.885][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138281.988][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.090][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.192][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.295][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.398][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.513][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.615][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.718][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.821][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138282.925][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="userNameLabelTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logoTextTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f"/>
+  </testcase>
+  <testcase name="contactsPageTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f"/>
+  </testcase>
+  <testcase name="dealsPageTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f"/>
+  </testcase>
+  <testcase name="tasksPageTest" classname="com.crm.qa.testcases.HomePageTest" time="0">
+    <skipped message="element click intercepted: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (1182, 117). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b73a72ce42ac2ab5bc35c52bdebe2d8f"/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="77.136">
+    <failure message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd9051731e5f8633ff63799c3ab8acd" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-VFM9P8ED', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dd9051731e5f8633ff63799c3ab8acd
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:32)
+]]></failure>
+    <system-out><![CDATA[Before navigating to: 'https://classic.crmpro.com'
+Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.001
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-VFM9P8ED', ip: '192.168.1.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6dd9051731e5f8633ff63799c3ab8acd
+
+@@@@@@@@user directory--C:\Users\Sai Sharan\git\PageObjectModel\POM
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 35779
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585138299.807][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 5:41:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585138305.975][WARNING]: Timed out connecting to Chrome, retrying...
+[1585138309.260][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138309.361][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138309.462][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138309.564][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138309.669][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138309.771][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138309.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138309.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.075][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.176][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.277][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.480][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.582][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.685][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.889][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138310.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138311.093][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138311.195][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138311.296][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138311.399][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138311.501][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138311.603][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138319.723][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138319.855][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138319.956][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.061][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.266][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.368][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.472][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.574][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.678][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.783][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.886][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138320.988][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.092][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.198][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.302][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.405][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.508][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.610][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.817][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138321.918][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.019][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.120][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.324][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.427][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.636][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.745][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.849][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138322.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.053][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.257][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.358][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.460][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.567][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.668][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.769][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.871][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138323.972][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138324.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138324.177][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138324.279][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138324.652][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138324.754][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138324.855][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138324.957][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.060][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.162][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.265][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.366][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.467][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.569][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.670][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.771][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138325.974][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.075][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.179][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.282][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.384][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.485][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.588][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.690][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.793][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.895][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138326.998][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.100][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.304][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.522][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.623][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.725][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138327.916][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.018][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.121][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.332][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.434][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.535][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.637][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.739][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.840][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138328.941][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.044][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.147][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.349][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.451][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.553][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.654][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138329.857][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.034][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.136][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.239][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.341][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.442][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.650][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.752][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.854][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138330.955][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.160][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.264][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.366][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.468][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.570][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.721][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.822][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138331.931][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138332.032][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138332.241][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138332.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138332.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138332.634][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138332.735][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138332.901][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.003][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.105][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.207][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.309][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.440][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.542][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.646][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.747][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.849][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138333.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.053][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.155][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.256][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.360][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.464][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.656][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.759][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.863][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138334.965][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.066][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.270][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.371][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.473][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.575][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.883][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138335.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.086][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.289][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.390][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.493][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.598][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.767][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.869][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138336.970][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.071][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.174][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.277][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.379][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.480][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.582][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.684][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.785][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138337.989][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138338.090][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585138338.121][SEVERE]: Timed out receiving message from renderer: 0.025
+[1585138338.122][SEVERE]: Timed out receiving message from renderer: -0.001
+Mar 25, 2020 5:42:18 PM org.openqa.selenium.remote.ErrorCodes toStatus
+INFO: HTTP Status: '408' -> incorrect JSON status mapping for 'timeout' (500 expected)
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[3--------4
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="contactsPageLabelTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd9051731e5f8633ff63799c3ab8acd"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectContactsByNameTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd9051731e5f8633ff63799c3ab8acd"/>
+  </testcase>
+  <testcase name="selectAllContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd9051731e5f8633ff63799c3ab8acd"/>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd9051731e5f8633ff63799c3ab8acd"/>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd9051731e5f8633ff63799c3ab8acd"/>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: -0.001&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;4.0.0-alpha-4&apos;, revision: &apos;c2d955b49e&apos;&#10;System info: host: &apos;LAPTOP-VFM9P8ED&apos;, ip: &apos;192.168.1.121&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\SAISHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6dd9051731e5f8633ff63799c3ab8acd"/>
+  </testcase>
+  <testcase name="validateClickOnNewCompany" classname="com.crm.qa.testcases.CompaniesPageTest" time="8.534"/>
+  <testcase name="validateEvent_Mon" classname="com.crm.qa.testcases.CalendarPageTest" time="0.266"/>
+</testsuite>
