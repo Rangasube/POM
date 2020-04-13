@@ -8,9 +8,24 @@
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>
 		</classes>
 	</test>
+	 <test name="CRMPRO Test Cases2">
+		<classes>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+		</classes>
+	</test>
 	<test name="CRMPRO Test Cases5">
 		<classes>
 			<class name="com.crm.qa.testcases.ContactsPageTest"></class>
+		</classes>
+	</test>
+	<test name="CRMPRO Test Cases3">
+		<classes>
+			<class name="com.crm.qa.testcases.CompaniesPageTest"></class>
+		</classes>
+	</test>
+	<test name="CRMPRO Test Cases4">
+		<classes>
+			<class name="com.crm.qa.testcases.CalendarPageTest"></class>
 		</classes>
 	</test>
 </suite>
