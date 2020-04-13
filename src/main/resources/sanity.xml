@@ -3,12 +3,14 @@
 <suite name="FREE CRM Application Test Automation Test Suite">
 
 
-	<test name="Free CRM App Test Cases">
+	 <test name="CRMPRO Test Cases1">
 		<classes>
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>
-			<class name="com.crm.qa.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+	<test name="CRMPRO Test Cases5">
+		<classes>
 			<class name="com.crm.qa.testcases.ContactsPageTest"></class>
-
 		</classes>
 	</test>
 </suite>
