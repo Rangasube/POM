@@ -6,12 +6,6 @@
 <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
 </listeners>
 
-  
-	 <test name="CRMPRO Test Cases2">
-		<classes>
-			<class name="com.crm.qa.testcases.CalendarPageTest"></class>
-		</classes>
-	</test>
 	<test name="CRMPRO Test Cases5">
 		<classes>
 			<class name="com.crm.qa.testcases.LoginPageTest"></class>

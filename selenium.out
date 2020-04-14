@@ -1,20 +1,18 @@
-2020-04-14 12:21:18 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 12:21:40 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 12:22:21 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 12:22:32 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** Starting TestCase ******************
-2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
-2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** Ending TestCase ******************
-2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
-2020-04-14 12:22:59 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 12:23:16 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** Starting TestCase ******************
-2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** crmLogoImageTest ******************
-2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** Ending TestCase ******************
-2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
-2020-04-14 12:23:32 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 12:23:44 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 12:23:52 INFO  TestUtil:65 - ****************** Starting TestCase ******************
-2020-04-14 12:23:52 INFO  TestUtil:65 - ****************** loginTest ******************
-2020-04-14 12:24:00 INFO  TestUtil:65 - ****************** Ending TestCase ******************
-2020-04-14 12:24:00 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 13:26:49 INFO  TestUtil:65 - Launching Chrome Browser
+2020-04-14 13:27:02 INFO  TestUtil:65 - Entering URL of the Application
+2020-04-14 13:27:25 INFO  TestUtil:65 - ****************** Starting TestCase ******************
+2020-04-14 13:27:25 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 13:27:25 INFO  TestUtil:65 - ****************** Ending TestCase ******************
+2020-04-14 13:27:25 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 13:27:27 INFO  TestUtil:65 - Launching Chrome Browser
+2020-04-14 13:27:37 INFO  TestUtil:65 - Entering URL of the Application
+2020-04-14 13:27:52 INFO  TestUtil:65 - ****************** Starting TestCase ******************
+2020-04-14 13:27:52 INFO  TestUtil:65 - ****************** crmLogoImageTest ******************
+2020-04-14 13:27:52 INFO  TestUtil:65 - ****************** Ending TestCase ******************
+2020-04-14 13:27:52 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 13:27:53 INFO  TestUtil:65 - Launching Chrome Browser
+2020-04-14 13:28:03 INFO  TestUtil:65 - Entering URL of the Application
+2020-04-14 13:28:14 INFO  TestUtil:65 - ****************** Starting TestCase ******************
+2020-04-14 13:28:14 INFO  TestUtil:65 - ****************** loginTest ******************
+2020-04-14 13:28:20 INFO  TestUtil:65 - ****************** Ending TestCase ******************
+2020-04-14 13:28:20 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************

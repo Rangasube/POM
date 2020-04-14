@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="CRMPRO Test Cases5(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.ContactsPageTest">
+      <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="selectContactsByNameTest"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- CRMPRO Test Cases5(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
