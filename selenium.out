@@ -1,30 +1,20 @@
-2020-04-14 01:02:03 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:02:23 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:02:37 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:02:47 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:03:02 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:03:14 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:03:29 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:03:40 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:03:57 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:04:07 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:04:25 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:04:35 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:04:53 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:05:03 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:05:13 INFO  TestUtil:65 - ****************** Starting TestCase ******************
-2020-04-14 01:05:13 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
-2020-04-14 01:05:13 INFO  TestUtil:65 - ****************** Ending TestCase ******************
-2020-04-14 01:05:13 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
-2020-04-14 01:05:14 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:05:26 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:05:37 INFO  TestUtil:65 - ****************** Starting TestCase ******************
-2020-04-14 01:05:37 INFO  TestUtil:65 - ****************** crmLogoImageTest ******************
-2020-04-14 01:05:38 INFO  TestUtil:65 - ****************** Ending TestCase ******************
-2020-04-14 01:05:38 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
-2020-04-14 01:05:39 INFO  TestUtil:65 - Launching Chrome Browser
-2020-04-14 01:05:50 INFO  TestUtil:65 - Entering URL of the Application
-2020-04-14 01:05:59 INFO  TestUtil:65 - ****************** Starting TestCase ******************
-2020-04-14 01:05:59 INFO  TestUtil:65 - ****************** loginTest ******************
-2020-04-14 01:06:07 INFO  TestUtil:65 - ****************** Ending TestCase ******************
-2020-04-14 01:06:07 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 12:21:18 INFO  TestUtil:65 - Launching Chrome Browser
+2020-04-14 12:21:40 INFO  TestUtil:65 - Entering URL of the Application
+2020-04-14 12:22:21 INFO  TestUtil:65 - Launching Chrome Browser
+2020-04-14 12:22:32 INFO  TestUtil:65 - Entering URL of the Application
+2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** Starting TestCase ******************
+2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** Ending TestCase ******************
+2020-04-14 12:22:58 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 12:22:59 INFO  TestUtil:65 - Launching Chrome Browser
+2020-04-14 12:23:16 INFO  TestUtil:65 - Entering URL of the Application
+2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** Starting TestCase ******************
+2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** crmLogoImageTest ******************
+2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** Ending TestCase ******************
+2020-04-14 12:23:31 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************
+2020-04-14 12:23:32 INFO  TestUtil:65 - Launching Chrome Browser
+2020-04-14 12:23:44 INFO  TestUtil:65 - Entering URL of the Application
+2020-04-14 12:23:52 INFO  TestUtil:65 - ****************** Starting TestCase ******************
+2020-04-14 12:23:52 INFO  TestUtil:65 - ****************** loginTest ******************
+2020-04-14 12:24:00 INFO  TestUtil:65 - ****************** Ending TestCase ******************
+2020-04-14 12:24:00 INFO  TestUtil:65 - ****************** loginPageTitleTest ******************

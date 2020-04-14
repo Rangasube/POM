@@ -115,7 +115,7 @@
         <version>3.0.0-M4</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>C:\Users\Sai Sharan\eclipse-workspace\POM\src\main\resources\testng.xml</suiteXmlFile>
+            <suiteXmlFile>C:\Users\Sai Sharan\git\PageObjectModel\POM\src\main\resources\testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
