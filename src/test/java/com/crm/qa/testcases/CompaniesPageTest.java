@@ -15,11 +15,11 @@ public class CompaniesPageTest extends TestBase{
 	HomePage homePage;
 	CompaniesPage companiesPage;
 	TestUtil testUtil;
-	
+
 	public CompaniesPageTest() {
 		super();
 	}
-	
+
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -28,7 +28,7 @@ public class CompaniesPageTest extends TestBase{
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil.switchToFrame();
 		//companiesPage = homePage.clickOnCompaniesLink();	
-		}
+	}
 	@Test(priority=1)
 	public void validateClickOnNewCompany() {
 		homePage.clickOnNewCompany();
