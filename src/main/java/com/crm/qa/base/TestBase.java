@@ -10,6 +10,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.crm.qa.util.TestUtil;
@@ -48,6 +49,11 @@ public class TestBase {
 			System.setProperty("webdriver.gecko.driver","c:\\geckodriver.exe");
 			logInfo("Launching FireFox Browser");
 			driver = new FirefoxDriver();
+		}
+		else if (browserName.equals("IE")) {
+			System.setProperty("webdriver.ie.driver","c:\\IEDriverServer.exe");
+			logInfo("Launching Internet Explorer");
+			driver = new InternetExplorerDriver();
 		}
 
 		e_driver = new EventFiringWebDriver(driver);
