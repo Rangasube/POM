@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53467" started-at="2020-04-16T14:50:11Z" finished-at="2020-04-16T14:51:04Z">
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="128651" started-at="2020-04-19T10:33:48Z" finished-at="2020-04-19T10:35:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53467" started-at="2020-04-16T14:50:11Z" finished-at="2020-04-16T14:51:04Z">
-      <class name="com.crm.qa.testcases.CompaniesPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@68bbe345]" name="setUp" is-config="true" duration-ms="40695" started-at="2020-04-16T14:50:11Z" finished-at="2020-04-16T14:50:52Z">
+    <test name="CRMPRO Test Cases5" duration-ms="128651" started-at="2020-04-19T10:33:48Z" finished-at="2020-04-19T10:35:57Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="setUp" is-config="true" duration-ms="50051" started-at="2020-04-19T10:33:48Z" finished-at="2020-04-19T10:34:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateClickOnNewCompany()[pri:1, instance:com.crm.qa.testcases.CompaniesPageTest@68bbe345]" name="validateClickOnNewCompany" duration-ms="1277" started-at="2020-04-16T14:50:52Z" finished-at="2020-04-16T14:50:53Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="loginPageTitleTest" duration-ms="488" started-at="2020-04-19T10:34:38Z" finished-at="2020-04-19T10:34:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateClickOnNewCompany -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CompaniesPageTest@68bbe345]" name="tearDown" is-config="true" duration-ms="11431" started-at="2020-04-16T14:50:53Z" finished-at="2020-04-16T14:51:04Z">
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="tearDown" is-config="true" duration-ms="1452" started-at="2020-04-19T10:34:39Z" finished-at="2020-04-19T10:34:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.CompaniesPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="setUp" is-config="true" duration-ms="28343" started-at="2020-04-19T10:34:40Z" finished-at="2020-04-19T10:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="crmLogoImageTest" duration-ms="930" started-at="2020-04-19T10:35:08Z" finished-at="2020-04-19T10:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmLogoImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="tearDown" is-config="true" duration-ms="1599" started-at="2020-04-19T10:35:09Z" finished-at="2020-04-19T10:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="setUp" is-config="true" duration-ms="24656" started-at="2020-04-19T10:35:11Z" finished-at="2020-04-19T10:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="loginTest" duration-ms="20103" started-at="2020-04-19T10:35:36Z" finished-at="2020-04-19T10:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@30b8a058]" name="tearDown" is-config="true" duration-ms="843" started-at="2020-04-19T10:35:56Z" finished-at="2020-04-19T10:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- CRMPRO Test Cases5 -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
 </testng-results>
